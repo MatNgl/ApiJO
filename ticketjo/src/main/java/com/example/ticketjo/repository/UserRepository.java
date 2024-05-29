@@ -1,6 +1,6 @@
-package com.example.JO_ticket.repository;
+package com.example.ticketjo.repository;
 
-import com.example.JOticket.model.User;
+import com.example.ticketjo.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Long> {
